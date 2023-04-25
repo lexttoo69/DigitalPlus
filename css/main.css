@@ -80,7 +80,8 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 40px;
+    margin-top: 25px;
+    box-shadow: 0px -10px rgba(0, 40, 236, 0.5);
 }
 
 .imagen{
@@ -91,20 +92,21 @@ header{
     display: grid;
     grid-column: 2;
     justify-items: center;
-    height: 450px;
+    height: 522px;
     margin-top: 80px;
     
 }
 .home-main-text {
     font-family: 'Roboto mono', monospace;
     font-size: 30px;
-    font-weight: 700px;
-    letter-spacing: 10px;
+    font-weight: 500px;
+    letter-spacing: 5px;
     color: black;
     text-align: center;
     color: white;
     text-shadow: 1px 1px 2px rgb(10, 10, 10), 0 0 1em rgb(255, 55, 0), 0 0 0.2em rgb(255, 38, 0);
 }
+
 .home-main-button {
     
     width: 200px;
@@ -117,6 +119,11 @@ header{
     border-radius: 10px;
     box-shadow: 0px -5px rgba(100, 6, 141, 0.5);
    
+}
+
+.home-main-button:hover{
+    
+    background-color: rgb(63, 219, 250);
 }
 
 .blogs-main {
@@ -157,7 +164,7 @@ header{
     padding: 10px 15px;
     font-size: 12px;
     border-radius: 5px;
-    margin-right:100px;
+    margin-right:20px;
 }
 
 .blogs-button1 {
@@ -165,7 +172,7 @@ header{
     padding: 10px 15px;
     font-size: 12px;
     border-radius: 5px;
-    margin-right:100px ;
+    margin-right:20px ;
 
 }
 .blogs-button2 {
@@ -191,14 +198,15 @@ header{
 }
 
 .backPicture{
-    background-image: url("../assets/img/a3.jpg");
+    background-image: url("../assets/logo/e3.jpg");
+    background-repeat: repeat;
 }
 
 footer {
     width: 100%;
     height: 80px;
     background-color: #22272d;
-    border-top: 35px solid #172768;
+    border-top: 35px solid #1a072a;
     text-align: center;
     
 }
